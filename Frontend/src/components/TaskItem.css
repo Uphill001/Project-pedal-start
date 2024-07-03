@@ -1,0 +1,33 @@
+/* frontend/src/components/TaskItem.css */
+
+.task-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .task-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 8px;
+  }
+  
+  .task-description {
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 8px;
+  }
+  
+  .task-due-date {
+    font-size: 0.9rem;
+    color: #888888;
+  }
+  
